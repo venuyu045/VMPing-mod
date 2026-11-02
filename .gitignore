@@ -1,0 +1,44 @@
+# ---- Gradle / 构建产物 ----
+.gradle/
+build/
+out/
+bin/
+run/
+*.class
+*.jar
+# Gradle wrapper 的 jar 必须入库
+!gradle-wrapper.jar
+
+# ---- 日志 ----
+*.log
+logs/
+
+# ---- Python ----
+__pycache__/
+*.pyc
+
+# ---- 本地环境 / IDE ----
+local.properties
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+.vscode/
+.DS_Store
+
+# ---- 上游参考实现（LukenSkyne/Minecraft-Ping-Wheel，MIT；只作阅读参考，不入库）----
+# 克隆命令见 docs/上游参考.md
+/upstream/
+
+# ---- AI agent 本地状态 ----
+.claude/
+.codex/
+.cursor/
+
+# ---- 内部文档（不公开：含服务器地址、内部实现细节、第三方调研）----
+/审查报告.md
+/research/
+
+# ---- 本地发布草稿（GitHub Release 正文用，不进仓库）----
+/.github-release-notes-*.md

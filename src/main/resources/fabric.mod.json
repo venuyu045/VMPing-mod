@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "vmping",
+  "version": "${version}",
+  "name": "Venus Mc Ping",
+  "description": "Client-side ping wheel: mark locations and see your friends' pings without installing anything on the server.",
+  "authors": [
+    "Venus"
+  ],
+  "contact": {
+    "homepage": "https://github.com/venuyu045/VMPing-mod",
+    "sources": "https://github.com/venuyu045/VMPing-mod",
+    "issues": "https://github.com/venuyu045/VMPing-mod/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/vmping/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.venus.vmping.VMPingClient"
+    ],
+    "modmenu": [
+      "com.venus.vmping.integration.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "vmping.mixins.json"
+  ],
+  "suggests": {
+    "modmenu": ">=21.0.0"
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": ">=0.165.0"
+  }
+}

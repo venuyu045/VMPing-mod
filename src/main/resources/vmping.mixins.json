@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.venus.vmping.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "MinecraftPickBlockMixin",
+    "GameRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
