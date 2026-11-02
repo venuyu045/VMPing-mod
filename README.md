@@ -111,6 +111,14 @@ JAVA_HOME=/opt/jdk25/jdk-25.0.4.1+1 ./gradlew test
 | [`docs/后端实现.md`](docs/后端实现.md) | 后端路由/容量/限流/部署注意 |
 | [`docs/上游参考.md`](docs/上游参考.md) | 与上游 Ping Wheel 的文件级对照、MIT 义务 |
 
+## 相关项目
+
+| 项目 | 说明 |
+|---|---|
+| [VMFashion-mod](https://github.com/venuyu045/VMFashion-mod) | 纯客户端时装模组（通信/认证范式的来源） |
+| [VMTools-mod](https://github.com/venuyu045/VMTools-mod) | 纯客户端工具模组（路径点 / 传送 / 逃逸） |
+| [VMTools-Web](https://github.com/venuyu045/VMTools-Web) | 标点中继后端（`/api/ping`）+ Bot 管理平台 |
+
 ## 致谢
 
 - 交互与渲染思路参考 [LukenSkyne/Minecraft-Ping-Wheel](https://github.com/LukenSkyne/Minecraft-Ping-Wheel)（MIT），
